@@ -1,0 +1,52 @@
+.employee-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-form input,
+  .employee-form textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .employee-form input:focus,
+  .employee-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .employee-form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .employee-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .employee-form button:active {
+    transform: scale(0.98);
+  }
+  
+  .employee-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
